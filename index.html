@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="feature-search">
+          <input type="text" placeholder="Nhập thành phố..." id="inputId" />
+          <button id="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <img id="img-weather" src="" alt="" />
+        <div class="depcription"></div>
+        <div class="infor">
+          <h1 class="temperature">24 độ C</h1>
+          <h3 class="city">Tp.Hồ Chí Minh</h3>
+        </div>
+        <hr />
+        <div class="descriptions-more">
+          <div class="des-wind">
+            <div id="wind-speed"></div>
+            <div id="wind-deg"></div>
+          </div>
+          <div id="humidity"></div>
+        </div>
+        <div id="rain"></div>
+      </div>
+      <div class="toast">
+        <div class="list-toast"></div>
+      </div>
+    </div>
+    <script src="./js/javascript.js"></script>
+  </body>
+</html>
